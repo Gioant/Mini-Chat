@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Mingzat&family=Source+Sans+Pro&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body {
+    height: 100vh;
+}
+
+form label {
+    font-family: 'Source Sans Pro', SansSerif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #9e8fb2;
+    background-image: linear-gradient(315deg, #9e8fb2 0%, #a7acd9 74%);
+}
+
+
+.top {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+#login {
+    position: relative;
+    left: 30%;
+    margin-bottom: 10px;
+}
+
+#register {
+    position: absolute;
+    left: 995px;
+    top: 185px;
+}
+
+#title {
+    font-family: 'Source Sans Pro', SansSerif;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.mid {
+    margin-top: 2%;
+    margin-bottom: 10px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.box-left{
+    width: 30%;
+    max-height: 400px;
+    padding: 30px;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+.box-left h2 {
+    font-family: 'Source Sans Pro', SansSerif;
+}
+
+.box-right{
+    width: 40%;
+    padding: 30px;
+    margin-left: 2%;
+    max-height: 650px;
+    border: 3px solid black;
+    border-radius: 10px;
+    overflow-y:scroll;
+}
+
+.msgContainer {
+    margin-top: 20px;
+}
+
+.avatar {
+    width: 25px;
+    height: 25px;
+}
+
+.posts b {
+    margin-left: 10px;
+}

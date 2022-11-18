@@ -1,5 +1,5 @@
 # Mini-Chat
-Small Project where users can register an account and be able to chat with others
+A Chat System Where Users Can Register An Account & Chat With Others. Using MySQL & PHP
 
 Demo:
 
